@@ -1,0 +1,16 @@
+{
+  "name": "sonyshop",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "node server.js",
+    "client": "cd frontend & npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "scriptsComments": {
+    "start": "Runs development build on a local server configured by server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
